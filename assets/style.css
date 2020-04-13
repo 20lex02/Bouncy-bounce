@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+}
+#playground, #mouseContainer {
+    background-color: lightgray;
+    width: 800px;
+    height: 800px;
+    display: inline-block;
+    cursor:none;
+    text-align:center;
+    position:relative;
+    border-radius: 12.5px;
+}
+#mouseContainer {
+    background-color: none !important;
+}
+#container {
+    text-align:center
+}
+#pointer {
+    background-color: lightslategrey;
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+#progressbar {
+    top:25px;
+    left:300px;
+    height:25px;
+    width:200px;
+    display: inline-block;
+    background-color: whitesmoke;
+    position:absolute;
+    border-radius: 12.5px;
+}
+#progress {
+    height:25px;
+    left:0;
+    display: inline-block;
+    background-color: lightslategrey;
+    position:absolute;
+    border-radius: 12.5px;
+}
+.balle {
+    height: 40px;
+    position: absolute;
+    display: inline-block;
+    width:40px;
+    border-radius: 20px;
+
+}
+#attackzone {
+    height:200px;
+    width:200px;
+    display: inline-block;
+    background-color: rgb(255, 57, 87);
+    position:absolute;
+    border-radius: 100px;
+    top: -50px;
+    left:-50px;
+    opacity: 0.5;
+}
+#scoreContainer {
+    position: absolute;
+    right:0;
+    display: inline-block;
+    bottom:0;
+
+    margin:12px;
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
